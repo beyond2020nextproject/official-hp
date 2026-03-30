@@ -1,16 +1,5 @@
 import { useState, useEffect } from "react";
 
-// Google DriveのURLを画像表示用に変換
-const convertGoogleDriveUrl = (url) => {
-  if (!url) return null;
-  // Google Driveの共有リンクからファイルIDを抽出
-  const match = url.match(/[\/=]([a-zA-Z0-9_-]{25,})/);
-  if (match) {
-    return `https://drive.google.com/uc?export=view&id=${match[1]}`;
-  }
-  return url;
-};
-
 function Obog() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedMember, setSelectedMember] = useState(null);
@@ -60,9 +49,9 @@ function Obog() {
           {executiveMembers.map((member) => ( // executiveMembersを使用
             <div key={member.id} className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 font-bold overflow-hidden relative">
-                {member.image_url ? (
+                {member.image ? (
                   <img
-                    src={convertGoogleDriveUrl(member.image_url)}
+                    src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -72,7 +61,7 @@ function Obog() {
                     }}
                   />
                 ) : null}
-                <span className="fallback-initial" style={{ display: member.image_url ? 'none' : 'flex' }}>
+                <span className="fallback-initial" style={{ display: member.image ? 'none' : 'flex' }}>
                   {member.name.charAt(0)}
                 </span>
               </div>
@@ -100,9 +89,9 @@ function Obog() {
           {otherMembers.map((member) => ( // otherMembersを使用
             <div key={member.id} className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 font-bold overflow-hidden relative">
-                {member.image_url ? (
+                {member.image ? (
                   <img
-                    src={convertGoogleDriveUrl(member.image_url)}
+                    src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -112,7 +101,7 @@ function Obog() {
                     }}
                   />
                 ) : null}
-                <span className="fallback-initial" style={{ display: member.image_url ? 'none' : 'flex' }}>
+                <span className="fallback-initial" style={{ display: member.image ? 'none' : 'flex' }}>
                   {member.name.charAt(0)}
                 </span>
               </div>
@@ -137,9 +126,9 @@ function Obog() {
           <div className="bg-white p-6 rounded-lg max-w-md w-full max-h-[80vh] overflow-y-auto">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 font-bold mr-4 overflow-hidden relative">
-                {selectedMember.image_url ? (
+                {selectedMember.image ? (
                   <img
-                    src={convertGoogleDriveUrl(selectedMember.image_url)}
+                    src={selectedMember.image}
                     alt={selectedMember.name}
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -149,7 +138,7 @@ function Obog() {
                     }}
                   />
                 ) : null}
-                <span className="fallback-initial" style={{ display: selectedMember.image_url ? 'none' : 'flex' }}>
+                <span className="fallback-initial" style={{ display: selectedMember.image ? 'none' : 'flex' }}>
                   {selectedMember.name.charAt(0)}
                 </span>
               </div>
