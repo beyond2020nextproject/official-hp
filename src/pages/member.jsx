@@ -7,7 +7,8 @@ import Profile6 from '../assets/member/profile6.jpeg';
 import Profile7 from '../assets/member/profile7.jpeg';
 import Profile8 from '../assets/member/profile8.jpeg';
 import Profile9 from '../assets/member/profile9.jpeg';
-import { SiFacebook, SiInstagram,SiX,SiLinkedin} from '@icons-pack/react-simple-icons';
+import { SiFacebook, SiInstagram,SiX} from '@icons-pack/react-simple-icons';
+import {SiLinkedin} from '@icons-pack/react-simple-icons';
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Member() {
