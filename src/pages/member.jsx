@@ -186,7 +186,7 @@ export default function Member() {
                     <SiFacebook className="h-5 w-5" />
                   </button>
                   : null}
-                {profile.X ?
+                {/* {profile.X ?
                   <button
                     onClick={() =>
                       window.open(
@@ -200,18 +200,18 @@ export default function Member() {
                   </button>
                   : null}
                 {profile.linkedin ?
-                  // <button
-                  //   onClick={() =>
-                  //     window.open(
-                  //       profile.linkedin,
-                  //       '_blank'
-                  //     )
-                  //   }
-                  //   className="group inline-flex h-12 w-12 items-center justify-center rounded-xl border border-slate-800 bg-gray-800 text-slate-400 transition-all duration-300 hover:border-slate-400 hover:text-white"
-                  // >
-                  //   <SiLinkedin className="h-5 w-5" />
-                  // </button>
-                  : null}
+                  <button
+                    onClick={() =>
+                      window.open(
+                        profile.linkedin,
+                        '_blank'
+                      )
+                    }
+                    className="group inline-flex h-12 w-12 items-center justify-center rounded-xl border border-slate-800 bg-gray-800 text-slate-400 transition-all duration-300 hover:border-slate-400 hover:text-white"
+                  >
+                    <SiLinkedin className="h-5 w-5" />
+                  </button>
+                  : null} */}
               </div>
             </div>
           </div>
