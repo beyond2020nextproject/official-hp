@@ -1,0 +1,35 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main] # ブランチ名が master の場合は master に書き換え
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+        env:
+          # ここにSecretsを紐付けます
+          VITE_MICROCMS_SERVICE_DOMAIN: ${{ secrets.VITE_MICROCMS_SERVICE_DOMAIN }}
+          VITE_MICROCMS_API_KEY: ${{ secrets.VITE_MICROCMS_API_KEY }}
+          VITE_OBOG_WEBSITE_USER_KEY: ${{ secrets.VITE_OBOG_WEBSITE_USER_KEY }}
+          VITE_OBOG_WEBSITE_PASSWORD_KEY: ${{ secrets.VITE_OBOG_WEBSITE_PASSWORD_KEY }}
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist # ビルド後のフォルダ名。プロジェクトによって build などの場合があります
