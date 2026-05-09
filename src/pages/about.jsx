@@ -1,4 +1,4 @@
-import Proflie from '../assets/member/profile1.jpg';
+import Proflie from '../assets/member/profile1.jpeg';
 import Card1 from '../assets/aboutus/card1.png';
 import { GrGrow } from "react-icons/gr";
 import { GiTeamIdea } from "react-icons/gi";
@@ -96,20 +96,18 @@ export default function About() {
                         alt="Profile" />
                 </div>
                 <div className="text-center md:w-1/2">
-                    <h3 className="text-2xl font-bold text-gray-800">松本綾香</h3>
+                    <h3 className="text-2xl font-bold text-gray-800">鶴岡 秀士</h3>
                     <h4 className="text-lg text-gray-600">Beyond2020NEXTPROJECT 幹事長</h4>
                     <p className="px-5 mt-2 text-md text-gray-600">
-                        Beyond 2020 NEXT PROJECTは、新しい挑戦に踏み出す仲間と出会い、自分自身も一歩を踏み出せる、刺激的な場所です。
-                        私自身、大学1年生のときに団体顧問の朝日先生・一木先生、そしてBeyondに出会い、キャンパスライフはもちろん、世界の見え方まで大きく変わりました。
-                        いま私たちが生きるのは、未来の予測が困難な“VUCA時代”。そんな不確実な時代だからこそ、変化を恐れず、新しい価値を創造し続ける「アントレプレナーシップ」がより一層求められています。
-                        私たちは「アントレプレナーシップ」を、
-                        育む／実践する／普及に貢献する
-                        という3つの軸で日々活動しています。
+                        <div className='text-bold text-nevy-600'>B</div>eyondは、多様な分野で挑戦をし続ける人が集い、自分自身も刺激を受けて一歩を踏み出せる、そんな場所です。
+                        私自身、大学1年生のときにBeyondに出会ってから、誇張なしに人生が変わりました。ここで、自分がやりたいと思っていたことに挑戦できたことはもちろん、自分一人では決して知り得なかった多くの価値観に触れ、「人間」としての幅大きく広がりました。
+                        いま私たちが生きるのは、未来の予測が困難な“VUCA時代”。そんな不確実な時代だからこそ、単なる「スキル」の習得にと止まらず、変化を楽しみながら創造し続ける「アントレプレナーシップ」を磨くことが、何より重要だと考えています。
+                        Beyondには、ビジネス、テクノロジー、伝統工芸など、多様な領域で自らの境界線を越えようとする挑戦者が集まっています。全員が挑戦に対して前向きだからこそ、どんどん新しいアクションが生まれ、お互いに刺激を与え合える環境があります。
                         私たちは、イベントサークルでも、起業サークルでもありません。
-                        「やってみたい気持ちはあるけれど、どう形にすればいいか分からない」
+                        「何か挑戦したいとおもっているけれど、どう始めればいいかわからない」
                         「志を持つ仲間と出会いたい」
                         そんなあなたこそ、Beyondで新たな一歩を踏み出してみませんか？
-                        熱い想いを抱えた若き挑戦者たちが、あなたと出会える日を心から楽しみにしています。
+                        熱い想いを抱えたメンバーが、あなたと出会える日を心から楽しみにしています。
                     </p>
                 </div>
             </div>

@@ -1,14 +1,15 @@
-import Profile1 from '../assets/member/profile1.jpg';
-import Profile2 from '../assets/member/profile2.jpg';
-import Profile3 from '../assets/member/profile3.jpg';
-import Profile4 from '../assets/member/profile4.png';
-import Profile5 from '../assets/member/profile5.jpg';
-import Profile6 from '../assets/member/profile6.jpg';
-import Profile7 from '../assets/member/profile7.jpg';
-import Profile8 from '../assets/member/profile8.jpg';
-import Profile9 from '../assets/member/profile9.jpg';
-import { SiFacebook, SiInstagram,SiX} from '@icons-pack/react-simple-icons';
+import Profile1 from '../assets/member/profile1.jpeg';
+import Profile2 from '../assets/member/profile2.jpeg';
+import Profile3 from '../assets/member/profile3.jpeg';
+import Profile4 from '../assets/member/profile4.jpeg';
+import Profile5 from '../assets/member/profile5.jpeg';
+import Profile6 from '../assets/member/profile6.jpeg';
+import Profile7 from '../assets/member/profile7.jpeg';
+import Profile8 from '../assets/member/profile8.jpeg';
+import Profile9 from '../assets/member/profile9.jpeg';
+import { SiFacebook, SiInstagram,SiX,SiLinkedin} from '@icons-pack/react-simple-icons';
 import { FaExternalLinkAlt } from "react-icons/fa";
+
 export default function Member() {
   const Breadcrumb = () => {
     return (
@@ -28,81 +29,102 @@ export default function Member() {
       <div class="my-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto w-[90%] mx-auto">
         {[
           {
-            name: '松本　綾香',
+            name: '鶴岡 秀士',
             role: '幹事長',
-            introduction: '早稲田大学生物物性科学研究室 (朝日研究室) に所属。専門は物理化学、キラル科学、結晶光学。また早稲田大学本庄高等学院で非常勤講師を務める。Beyond 2020 NEXT PROJECTには2020年度から参加し、2022年度に総務、2023年度からは事務局長を務めたのち、2025年度より現職。国連を支える世界こども未来会議PJ、SDGs教育カリキュラムPJ、アントレプレナーシップ教育PJメンバー。',
+            introduction: '早稲田大学データサイエンス研究室（後藤研究室）に所属。2024年度よりBeyond 2020 NEXT PROJECTメンバー。2025年度より現職。これまで、同団体では人と活動することをテーマとしたイベント「1人ではできないことを達成するには?　－人を動かす起業の要諦－」や、遊びの視点からキャリアを見つめなおすイベント「キャリア形成にこそ必要な“遊び”とは？」の実行委員長を務めた。現在は、データ分析を起点としたビジネス上の意思決定に強い関心を持ち、実社会に価値をもたらすデータサイエンティストを目指して日々経験を積んでいる。',
             image: Profile1,
-            site: "http://asahi-lab.jp/member/student/2023/matsumoto.html",
-            school:"早稲田大学 先進理工学研究科 先進理工学専攻\n一貫制博士課程2年"
+            facebook: "https://www.facebook.com/profile.php?id=100058251858947",
+            school:"早稲田大学 創造理工学部 経営システム工学科 4年"
           },
           {
-            name: '中島　真理子',
-            role: '事務局長',
-            introduction: '小学校教員を志し、早稲田大学教育学部教育学科初等教育学専攻に進学。また、東京都公立小学校にて学習支援員、早稲田大学本庄高等学院にて剣道部コーチを務める。現在、国内外の様々な視点から教育を学びながら専門分野を模索中。国連を支える世界子ども未来会議PJメンバー、アントレプレナーシップ教育PJメンバー。',
+            name: '中島 真理子',
+            role: '副幹事長',
+            introduction: '小学校教員を志し、早稲田大学教育学部教育学科初等教育学専攻に進学。本年度より教育方法・学級経営を専門領域とするゼミに所属。また、公立小学校の学習支援ボランティアや、高校生の探究学習や短期留学を支援する教育系NPOでの活動を通し、国内外の様々な視点で教育を学んでいる。Beyond 2020 NEXT PROJECTには2023年度から参加し、2024年度に広報、2025年度に事務局長を務めた後、現職。また、国連を支える世界子ども未来会議PJ学生リーダーを務める。',
             image: Profile2,
             facebook: "https://www.facebook.com/profile.php?id=100089589111219",
-            school:"早稲田大学教育学部教育学科初等教育学専攻"
+            school:"早稲田大学 教育学部 教育学科 初等教育学専攻 3年"
           },
           {
-            name: '笹野　朋子',
-            role: '事務局次長',
-            introduction: '早稲田大学情報数理応用・データサイエンス研究室（後藤研究室）に所属。Beyond 2020 Next Projectでは幹事 (総務担当)を務める。これまで、同団体の東京創業ステーションでの特別イベント「Think Beyond ！」-WiL General Partner・共同創業者 松本真尚氏による基調講演とビジネスアイデア構築-の実行委員長などを務めた。',
-            image: Profile3,
-            facebook: "https://www.facebook.com/profile.php?id=100083553781782",
-            school:"早稲田大学創造理工学研究科経営デザイン専攻"
-          },
-          {
-            name: 'Kaho',
-            role: '総務',
-            introduction: '2023年度よりBeyond 2020 NEXT PROJECT幹事メンバー。これまでに同団体にて、国連を支える世界こども未来会議プロジェクトに参画。また、「高校生のためのビジネスモデル構築講座」「自分の強みを活かすリーダーシップとは？-リーダーを支える側からその在り方を探る-」などで実行委員長を務める。興味分野は、教育、デザイン、そして、建築。',
+            name: '久米川 夏穂',
+            role: '事務局長',
+            introduction: '2023年度よりBeyond 2020 NEXT PROJECT幹事メンバー。これまでに同団体にて、「自分の強みを活かすリーダーシップとは？-リーダーを支える側からその在り方を探る-」「-学校生活をデザインする-なんとなくの毎日から抜け出すためには？」などで実行委員長を務める。また、国連を支える世界子ども未来会議PJでは、学生スタッフとしてNY国連本部を訪問する。昨年秋よりイギリスに1年間留学し、社会学を専攻。ベルリンで開催された、日本文化を再解釈し創造へとつなげる展示会「守破離」に運営として携わる。',
             facebook:"https://www.facebook.com/profile.php?id=100084273409836",
             instagram:"https://www.instagram.com/kaho_black_swan",
-            image:Profile4,
-            school:"早稲田大学国際教養学部"
-          },
-          {
-            name: "鶴岡秀士",
-            role: "総務",
-            introduction: "2024年度よりBeyond 2020 NEXT PROJECTメンバー。これまで同団体では、株式会社COLORSで共催している「起業家養成プロジェクト－暁－」の実行委員を務めたほか、「一人でできないことを達成するには？－人を動かす起業の要諦－」で実行委員長を務めている。広告関連会社でマーケティングコンテンツの作成を経験した。現在は、店舗支援を行っているベンチャー企業でマーケティング施策の運用を横断的に経験している。",
-            image: Profile8,
-            facebook:"https://www.facebook.com/profile.php?id=100058251858947",
-            school:"早稲田大学創造理工学部経営システム工学科3年"
-          },
-          {
-            name: "新見蓮",
-            role: "総務",
-            introduction: "フォトグラファー/PRプランナー。教育系インパクトスタートアップの執行役員/事業責任者として、機会格差や情報格差の解消に取り組んでいる。大学ではコミュニケーションを専門に、世界各地を巡りながら、言語・コンテクスト・広告表現の関係を研究中。誰もが関わる一方で、難度が高いと言われる「教育」の領域に、インパクトスタートアップとして挑み、現場から未来のスタンダードをつくろうとしている。",
-            image: Profile9,
-            site:"https://my.prairie.cards/u/ren2130",
-            school:"早稲田大学社会科学部"
-          },
-          {
-            name: "天野　実来",
-            role: "広報",
-            introduction: "N高等学校在籍時に培ったプログラミングスキルを活かし、WebサイトやWebアプリケーションの制作等を個人で手がけながら法人化を目指している。\nまた、高校時代にXRを活用した教育事例に強い関心を持ち、教育格差のない社会を実現するための活動に注力している。\n今年の春より株式会社GMO NIKKOでエンジニアのインターン活動を行っている。",
-            image: Profile5,
-            facebook:"https://www.facebook.com/profile.php?id=100078989904621",
-            site:"https://rikublender3d.github.io/portfolio/",
-            school:"早稲田大学人間科学部人間情報科学科1年"
-          },
-          {
-            name: "濵田　快志",
-            role: "広報",
-            introduction: "これまでに多くのビジコンや、アントレプレナーシップの講座、団体の立ち上げを経験。個人ではタクシー業界が持つ課題に興味を持ち、業界を変える新型タクシー配車アプリの開発を志す。昨年の春から、株式会社newmoでインターン活動を行っている。",
-            image: Profile6,
-            instagram: "https://www.instagram.com/kaigon_11/",
-            X: "https://x.com/kaishi_hamada",
-            school:"早稲田大学政治経済学部経済学科"
+            image:Profile3,
+            school:"早稲田大学 国際教養学部 3年"
           },
           {
             name: "本田 瑛大",
-            role: "広報",
-            introduction: "2023年度よりBeyond 2020 NEXT PROJECT幹事メンバー。同団体にて、「国連を支える世界こども未来会議」に携わる。これまで「感じてみようアントレプレナーシップ愛知」の実行委員長。高校時代は『常識を覆す選択』と挑戦を体現し、自身の『人生に彩り』をくわえてきた。大学時代は、環境関係なく日本の若者が挑戦できる居場所を自ら見つけることができる社会を構想することを目標とする。",
-            image: Profile7,
+            role: "オペレーション",
+            introduction: "同志社大学に所属。2024年度よりBeyond 2020 NEXT PROJECT幹事を務める。「感じてみようアントレプレナーシップ愛知」の実行委員長。高校時代は「トビタテ留学JAPAN！」「AIG高校生外交官」等を通じて知事に表敬訪問をし、探究などから『常識を覆す選択と挑戦』を体現し、自身の『人生に彩り』をくわえてきた。大学時代は「Rising Global Leaders」に選抜され、アテネやニューヨーク「Concordia Summit」にて首脳や大使、大主教閣下、ヘクトコーン創業者と対談し、自身が手がける複数の事業成長や公益、次世代育成に貢献してきた。",
+            image: Profile4,
+            facebook:"https://www.facebook.com/share/1ChkmqEqjA/?mibextid=wwXIfr",
             instagram:"https://www.instagram.com/akito.honda.official?igsh=MTlhdGJ0cmo2c2s3Yw%3D%3D&utm_source=qr",
-            facebook:"https://www.facebook.com/share/162Yhp1WNn/?mibextid=wwXIfr",
-            school:"同志社大学社会学部"
+            school:"同志社大学 社会学部 教育文化学科 2年"
           },
+          {
+            name: "山﨑 花菜",
+            role: "オペレーション",
+            introduction: "アメリカの高校から早稲田大学国際教養学部に進学。大学では国際関係と教育を主に学んでいる。2025年度よりBeyond 2020 NEXT PROJECTメンバー、2026年度より現職。現在は教育ベンチャーでインターンをしている。こどもや国際分野への関心を持ちながら、NPO団体でのインターンやボランティアへの参加を通して学びを深めている。",
+            image: Profile5,
+            facebook:"https://www.facebook.com/share/1EFrK9JhPe/?mibextid=wwXIfr",
+            instagram:"https://www.instagram.com/_hana.3787_?igsh=MXM4bmUyNmQxdWl2Mg%3D%3D&utm_source=qr",
+            school:"早稲田大学 国際教養学部 2年生"
+          },
+          {
+            name: "星名 優一朗",
+            role: "オペレーション",
+            introduction: "2024年度からBeyond 2020 NEXT PROJECTのメンバー。トビタテ留学JAPAN！高校８期生としてカナダ・トロントに「華道」をテーマに留学。2023年からメディア・リテラシー養成の教材制作に携わる。高校の公民科教員を志しており、体験型主権者教育に関心を持つ。",
+            image: Profile6,
+            facebook:"https://www.facebook.com/share/1EGCJrikKM/?mibextid=wwXIfr",
+            instagram:"https://www.instagram.com/star_name_070518?igsh=bnp6Nm45cjh5dDJl&utm_source=qr",
+            school:"明治学院大学 法学部 政治学科 1年"
+          },
+          {
+            name: "中路 梨里",
+            role: "オペレーション",
+            introduction: "Beyond 2020 NEXT PROJECTには2023年度に中学3年生として参加し、2026年度からは幹事として活動。主に世界こども未来国連やイベントの実行委員として参加。社会保障、とりわけ生活保護法に強い関心を持ち、現在は課題研究として探究を進めている。また、アメリカ留学での経験を活かし、活動に貢献していきたいと考えている。",
+            image: Profile7,
+            facebook:"https://www.facebook.com/share/1D8wrETRXh/?mibextid=wwXIfr",
+            instagram: "https://www.instagram.com/1.__27y?igsh=bWMxcXdrMmg3dDVo&utm_source=qr",
+            school:"東京学芸大学附属国際中等教育学校 3年"
+          },
+          {
+            name: "松本綾香",
+            role: "マーケティング",
+            introduction: "早稲田大学生物物性科学研究室 (朝日研究室) に所属。専門は物理化学、キラル科学、結晶光学。現在、早稲田大学本庄高等学院で非常勤講師を務める。アントレプレナーシップの養成をミッションに掲げる学生団体Beyond 2020 NEXT PROJECTに2020年度から参加し、2022年度に総務、2023年度からは事務局長を務めたのち、2025年度より幹事長を務める。国連を支える世界こども未来会議PJ、SDGs教育カリキュラムPJ、アントレプレナーシップ教育PJメンバー。",
+            image: Profile8,
+            site:"https://asahi-lab.jp/member/student/2023/matsumoto.html",
+            facebook:"https://www.facebook.com/share/1HvHwp96Rv/?mibextid=wwXIfr",
+            school:"早稲田大学大学院 先進理工学研究科 先進理工学専攻 一貫制博士課程 3年"
+          },
+          {
+            name: "田上 睦己",
+            role: "マーケティング",
+            introduction: "高校時代の部活動の怪我の経験から2024年東洋大学健康スポーツ科学部健康スポーツ科学科に入学。今年度からスポーツバイオメカニクスゼミに所属し、ソフトテニスの動作分析をテーマに研究予定。2024年度からBeyond2020NEXTPROJECTに所属、2026年度より現職。また、2025年4月よりスポーツ学生と企業をつなぐ株式会社S-Careerにて長期インターンで1年間広報・営業を担当した。2025年に学生団体「Share×share」を共同立ち上げし、主に広報を担当している。",
+            image: Profile9,
+            linkedin:"https://www.linkedin.com/in/%E7%9D%A6%E5%B7%B1-%E7%94%B0%E4%B8%8A-605277367?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+            facebook:"https://www.facebook.com/share/1D2jsLi6wj/?mibextid=wwXIfr",
+            school:"東洋大学 健康スポーツ科学部 健康スポーツ科学科 3年"
+          },
+          {
+            name: "秋山 友花",
+            role: "マーケティング",
+            introduction: "早稲田大学本庄高等学院卒業後、早稲田大学社会科学部に進学。中学3年時に地元群馬県伊勢崎市の伝統的工芸品である伊勢崎絣の技術に魅せられ、現在まで技を固定観念に捉われないユニークな方法で紡いでいけるよう奮闘してきた。現在は、インターンで土地に息づくものづくりのブランディングや記事化の手法を学びつつ、伊勢崎絣の記憶のアーカイブ活動をしている。",
+            image: Profile10,
+            instagram:"https://www.instagram.com/tomo__ka5.74?igsh=MThtZ3hlbnptMW5kbQ%3D%3D&utm_source=qr",
+            facebook:"https://www.facebook.com/share/1BLNMX5Bea/?mibextid=wwXIfr",
+            school:"早稲田大学 社会科学部 2年"
+          },
+          {
+            name: "青木優奈",
+            role: "マーケティング",
+            introduction: "早稲田大学本庄高等学院卒業後、早稲田大学政治経済学部経済学科に所属。2023年度よりBeyond 2020 NEXT PROJECTに参加し、2026年度より現職。団体では主に世界子ども未来会議やイベント運営に携わる。2025年よりAIスタートアップにてインターンに従事し、2026年3月にはNPO法人Edfutureのワールド寺子屋4期に大学生メンバーとして参加。教育や社会問題への関心を持ちながら、学科での学びを通してビジネスや国際関係分野について理解を深めている。",
+            image: Profile11,
+            linkedin:"https://www.linkedin.com/in/yuna-aoki-0474b33b7?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+            facebook:"https://www.facebook.com/share/18baxoyyjX/?mibextid=wwXIfr",
+            school:"早稲田大学政治経済学部経済学科2年"
+          }
         ].map((profile) => (
           <div class="flex flex-col bg-white shadow-lg rounded-lg my-6">
             <div class="m-2.5 overflow-hidden rounded-md h-80 flex justify-center items-center">
@@ -175,6 +197,19 @@ export default function Member() {
                     className="group inline-flex h-12 w-12 items-center justify-center rounded-xl border border-slate-800 bg-gray-800 text-slate-400 transition-all duration-300 hover:border-slate-400 hover:text-white"
                   >
                     <SiX className="h-5 w-5" />
+                  </button>
+                  : null}
+                {profile.linkedin ?
+                  <button
+                    onClick={() =>
+                      window.open(
+                        profile.X,
+                        '_blank'
+                      )
+                    }
+                    className="group inline-flex h-12 w-12 items-center justify-center rounded-xl border border-slate-800 bg-gray-800 text-slate-400 transition-all duration-300 hover:border-slate-400 hover:text-white"
+                  >
+                    <SiLinkedin className="h-5 w-5" />
                   </button>
                   : null}
               </div>
