@@ -168,7 +168,7 @@ function App() {
             <button
               onClick={() =>
                 window.open(
-                  `https://www.facebook.com/beyond2020nextproject/`,
+                  `https://www.facebook.com/profile.php?id=61576484135953`,
                   '_blank'
                 )
               }
@@ -179,7 +179,7 @@ function App() {
             <button
               onClick={() =>
                 window.open(
-                  `https://www.instagram.com/beyond2020nextproject/`,
+                  `https://www.instagram.com/beyond2020_nextproject?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==`,
                   '_blank'
                 )
               }
