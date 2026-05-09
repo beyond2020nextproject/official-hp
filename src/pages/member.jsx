@@ -8,7 +8,6 @@ import Profile7 from '../assets/member/profile7.jpeg';
 import Profile8 from '../assets/member/profile8.jpeg';
 import Profile9 from '../assets/member/profile9.jpeg';
 import { SiFacebook, SiInstagram,SiX} from '@icons-pack/react-simple-icons';
-import {SiLinkedin} from '@icons-pack/react-simple-icons';
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Member() {
@@ -201,17 +200,17 @@ export default function Member() {
                   </button>
                   : null}
                 {profile.linkedin ?
-                  <button
-                    onClick={() =>
-                      window.open(
-                        profile.X,
-                        '_blank'
-                      )
-                    }
-                    className="group inline-flex h-12 w-12 items-center justify-center rounded-xl border border-slate-800 bg-gray-800 text-slate-400 transition-all duration-300 hover:border-slate-400 hover:text-white"
-                  >
-                    <SiLinkedin className="h-5 w-5" />
-                  </button>
+                  // <button
+                  //   onClick={() =>
+                  //     window.open(
+                  //       profile.linkedin,
+                  //       '_blank'
+                  //     )
+                  //   }
+                  //   className="group inline-flex h-12 w-12 items-center justify-center rounded-xl border border-slate-800 bg-gray-800 text-slate-400 transition-all duration-300 hover:border-slate-400 hover:text-white"
+                  // >
+                  //   <SiLinkedin className="h-5 w-5" />
+                  // </button>
                   : null}
               </div>
             </div>
