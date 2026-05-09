@@ -9,7 +9,7 @@ import Member from './pages/member';
 import { useState } from 'react';
 import Project from './pages/Project';
 import ScrollToTop from './component/ScrollToTop';
-import About from './pages/About';
+import About from './pages/about';
 import OBOG from './pages/obog';
 import PrivateRoute from "./component/PrivateRoute";
 import Contact from './pages/contact';
