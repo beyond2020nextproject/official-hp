@@ -1,16 +1,5 @@
 [
   {
-    "id": "06949fb4-4596-489a-98a4-808818800433",
-    "name": "鳴海 絢葉",
-    "name_rubby": "なるみ あやな",
-    "role": "-",
-    "operational_area": "東京都",
-    "field_of_expertise": "IT",
-    "history": "1999年生まれ。2024年政治経済学部国際政治経済学科卒業。",
-    "message": "ジャーナリズムに興味を持ったことに端を発し、外交・社会政策を中心に中学生の頃から課外活動等をして来ました。日本の社会政策・安全保障に関心があり、政策提言・国際シンポジウム等への参加、もしくは国際機関でのキャリアを目指しています。\n\n趣味は読書です。以前は本は政治・歴史・地理・科学・文化系の本ばかり読んでいましたが、文学も読むようになりました。今は英米仏露以外の国で歴史上の出来事の別視点を持たせてくれる本をよく探しています。\n\nまた、最近ハマり始めたのが中国茶です。元々お茶が好きでしたが、日本茶/緑茶から幅を広げて中国茶に手を出し始めました。もちろんハーブティーやイギリスの紅茶も好きで、それぞれの違いを見つけて、気分にあったお茶を飲むのが楽しいです。",
-    "is_kanji": false
-  },
-  {
     "id": "079618fe-92fd-4e0f-935e-87cd3a0fdf52",
     "name": "滝沢 叡弘",
     "name_rubby": "たきざわ さとひろ",
@@ -71,7 +60,7 @@
   },
   {
     "id": "2623d325-08e3-418e-983d-77328a2c8daf",
-    "name": "前田向貴",
+    "name": "前田 向貴",
     "name_rubby": "まえだこうき",
     "role": "東京海上ホールディングス",
     "operational_area": "東京",
@@ -82,7 +71,7 @@
   },
   {
     "id": "283388ce-6f63-42f6-9c6e-e16724b45a7e",
-    "name": "堀田直孝",
+    "name": "堀田 直孝",
     "name_rubby": "ほりたなおたか",
     "role": "最高裁判所司法研修所７７期司法修習生(2025年3月まで)/2025年4月～シティユーワ法律事務所勤務予定",
     "operational_area": "東京都",
@@ -94,7 +83,7 @@
   },
   {
     "id": "2e9be228-bb74-4e7b-bc8b-c021a7b584a3",
-    "name": "菅家利宇乃",
+    "name": "菅家 利宇乃",
     "name_rubby": "かんけとうの",
     "role": "株式会社COLORS",
     "operational_area": "東京都",
@@ -105,7 +94,7 @@
   },
   {
     "id": "38c79de2-84f0-4d65-be98-0a32b4a14aa2",
-    "name": "林﨑諒巡",
+    "name": "林﨑 諒巡",
     "name_rubby": "はやしざきりょうじゅん",
     "role": "早稲田大学",
     "operational_area": "東京都",
@@ -116,7 +105,7 @@
   },
   {
     "id": "3a4bf352-44b1-4010-822b-70da1093421d",
-    "name": "藤本真緒",
+    "name": "藤本 真緒",
     "name_rubby": "ふじもとまお",
     "role": "早稲田法学部",
     "operational_area": "東京",
@@ -134,17 +123,6 @@
     "field_of_expertise": "金融、トレーディング",
     "history": "1998年生まれ\n2022年早稲田大学政治経済学部卒業→みずほ銀行入行",
     "message": "社会人3年目、為替/金利系のトレーダーとして頑張っています。将来的には起業もしたいと思っていますがまずは目の前のことが面白くて集中したいです。",
-    "is_kanji": false
-  },
-  {
-    "id": "43613441-2d8d-4655-82d9-ca00aadc13c4",
-    "name": "田中 克明",
-    "name_rubby": "たなか かつあき",
-    "role": "株式会社amulapo",
-    "operational_area": "東京都",
-    "field_of_expertise": "ロボット工学、航空宇宙工学",
-    "history": "1990年生まれ、その後いろいろ",
-    "message": "科学技術の高付加価値を目指す",
     "is_kanji": false
   },
   {
@@ -179,18 +157,6 @@
     "history": "横浜インターナショナルスクール2015年卒\n早稲田大学創造理工学部総合機械学科2019年卒業\nシンガポール経営大学2021年\nメドトロニック2021年入社\nエアーズメディカル2023年　韓国のベンチャー日本支社立ち上げ\nフレイアソリューション2024年入社日本営業部長",
     "message": "医療関連ベンチャー、事業を支援したいです",
     "is_kanji": false
-  },
-  {
-    "id": "5ecdec73-582c-4e19-a37b-506565a5ec4c",
-    "name": "滝沢 叡弘",
-    "name_rubby": "たきざわ さとひろ",
-    "role": "早稲田大学大学院",
-    "operational_area": "東京",
-    "field_of_expertise": "修士/神経科学",
-    "history": "1999年生まれ。2023年早稲田大学先進理工学部卒業。2024年現在同大学院在学中。",
-    "message": "現在は修士で神経科学の研究をしている。分野は神経発生や、アルツーハイマー病等の神経変性疾患。計算論的神経科学にも興味。今後海外で研究を行い、日本に帰って起業orアカデミアポストが目標。\n趣味: ピアノ/テニス/筋トレ/芸術/株/猫",
-    "is_kanji": false,
-    "image": "images/members/takizawa_satohiro.jpeg"
   },
   {
     "id": "6e516f78-24ce-4dd9-b05d-ae68d3d7cd9c",
@@ -306,18 +272,6 @@
     "image": "images/members/hiraoka_chikako.jpeg"
   },
   {
-    "id": "9016d033-dcab-4826-af0c-d5c278d39274",
-    "name": "畠山　祥",
-    "name_rubby": "はたけやま　あきら",
-    "role": "早稲田大学/レイワセダ株式会社/株式会社One by One Music",
-    "operational_area": "",
-    "field_of_expertise": "修士二年/CEO/CEO",
-    "history": "https://akirahatakeyama1215.wixsite.com/website",
-    "message": "知的好奇心を元に限界を超えること",
-    "is_kanji": false,
-    "image": "images/members/hatakeyama_akira.jpeg"
-  },
-  {
     "id": "90df7766-cfc0-4095-ba08-400248a02190",
     "name": "小池伶佳",
     "name_rubby": "こいけれいか",
@@ -375,7 +329,7 @@
   },
   {
     "id": "98730d80-0ff6-4732-b725-e1fbdc8f58d8",
-    "name": "遠藤竜仁",
+    "name": "遠藤 竜仁",
     "name_rubby": "えんどうりょうじ",
     "role": "株式会社リクルート",
     "operational_area": "東京都",
@@ -386,7 +340,7 @@
   },
   {
     "id": "9b3789c5-c443-4301-87a9-b4c8109d178f",
-    "name": "柿森麻衣子",
+    "name": "柿森 麻衣子",
     "name_rubby": "かきもりまいこ",
     "role": "東京サラヤ株式会社",
     "operational_area": "東京都",
@@ -397,7 +351,7 @@
   },
   {
     "id": "9e284912-d6f4-4cf5-802c-21a1f15a5a24",
-    "name": "早川翔大",
+    "name": "早川 翔大",
     "name_rubby": "はやかわしょうた",
     "role": "株式会社島津製作所",
     "operational_area": "神奈川県",
@@ -408,7 +362,7 @@
   },
   {
     "id": "aa91d4c0-aad3-49bd-ab3f-3f2d38b59428",
-    "name": "末冨健丸",
+    "name": "末冨 健丸",
     "name_rubby": "スエドミケンマル",
     "role": "キンドリルジャパン株式会社",
     "operational_area": "東京都",
@@ -419,7 +373,7 @@
   },
   {
     "id": "ac983f48-0115-4f98-af34-e4b155a1d6ac",
-    "name": "後藤隼",
+    "name": "後藤 隼",
     "name_rubby": "ごとうじゅん",
     "role": "早稲田大学→ドリームインキュベータ（DI）",
     "operational_area": "東京都（数年後にアジアを中心とした海外転勤の可能性あり）",
@@ -430,7 +384,7 @@
   },
   {
     "id": "aeafc8e4-49bb-45eb-b038-7eff8c2d78ab",
-    "name": "鏑木惟蕗",
+    "name": "鏑木 惟蕗",
     "name_rubby": "かぶらぎいぶき",
     "role": "早稲田大学",
     "operational_area": "東京都",
@@ -442,8 +396,8 @@
   },
   {
     "id": "b2a4f85d-cf7f-44d8-8cdd-a192d5e33000",
-    "name": "畠山　祥",
-    "name_rubby": "はたけやま　あきら",
+    "name": "畠山 祥",
+    "name_rubby": "はたけやま あきら",
     "role": "合同会社Number",
     "operational_area": "東京",
     "field_of_expertise": "経営",
@@ -454,8 +408,8 @@
   },
   {
     "id": "b852f3b6-82d3-4d36-8739-243b6398a148",
-    "name": "奥田宗太",
-    "name_rubby": "おくだそうた",
+    "name": "奥田 宗太",
+    "name_rubby": "おくだ そうた",
     "role": "早稲田大学",
     "operational_area": "東京都",
     "field_of_expertise": "大学院生",
@@ -464,31 +418,9 @@
     "is_kanji": false
   },
   {
-    "id": "c0bc0c87-8008-4922-87af-cd0146c6c448",
-    "name": "三富　大雅",
-    "name_rubby": "みとみ　たいが",
-    "role": "株式会社LITALICO",
-    "operational_area": "東京都",
-    "field_of_expertise": "営業/障害福祉",
-    "history": "1998年生まれ\n神奈川県出身\n2018年専修大学文学部中退\n2022年早稲田大学スポーツ科学部卒業\n2022年株式会社Speee入社\n2023年株式会社LITALICO入社",
-    "message": "スポ科出身で健康運動指導士の資格を保有し、学生時代には「おじいちゃんおばあちゃんと大学生の縦の交流を生み出す」\"ばあごはん\"というサービスをやってました！\n\n現在「早稲田大学躰道会(たいどうかい)」という公認サークルで武道の指導者見習いをしており、早稲田の街には最低週２で訪れてます。\n\n目下、障害福祉領域で営業職をしつつ躰道家として日本一を目指しています。近い将来、健康増進や交流創出の文脈からサービスを作ろうと模索中です。よろしくお願いします。",
-    "is_kanji": false
-  },
-  {
-    "id": "cb401fd3-9bed-47d5-a3a2-b4fa3ef08c98",
-    "name": "岡本 将樹",
-    "name_rubby": "おかもと まさき",
-    "role": "株式会社ELternal  / 朝日研究室",
-    "operational_area": "",
-    "field_of_expertise": "",
-    "history": "早稲田大学先進理工学研究科",
-    "message": "旅行業開業に向けて準備 / 博士号取得（2026年3月）",
-    "is_kanji": false
-  },
-  {
     "id": "d1c06b6b-596c-4d60-baf6-49d5499e1055",
-    "name": "溝上茉里子",
-    "name_rubby": "みぞがみまりこ",
+    "name": "溝上 茉里子",
+    "name_rubby": "みぞがみ まりこ",
     "role": "ブルームバーグL.P.",
     "operational_area": "東京",
     "field_of_expertise": "債券データアナリスト",
@@ -498,8 +430,8 @@
   },
   {
     "id": "d451e533-269e-4f41-9ff1-2467a80e7626",
-    "name": "丸山祐丞",
-    "name_rubby": "マルヤマ　ユウスケ",
+    "name": "丸山 祐丞",
+    "name_rubby": "マルヤマ ユウスケ",
     "role": "Eaglys",
     "operational_area": "東京",
     "field_of_expertise": "経営　機械学習　暗号　スポーツ科学",
@@ -509,7 +441,7 @@
   },
   {
     "id": "d4ef4da6-ddef-43d5-b995-096c470fdb9d",
-    "name": "宮下武虎",
+    "name": "宮下 武虎",
     "name_rubby": "みやしたたけとら",
     "role": "EYストラテジー・アンド・コンサルティング株式会社",
     "operational_area": "東京都",
@@ -520,7 +452,7 @@
   },
   {
     "id": "d58f1c25-baab-44a4-9b43-88c8eb66b26e",
-    "name": "三富　大雅",
+    "name": "三富 大雅",
     "name_rubby": "みとみ　たいが",
     "role": "株式会社LITALICO",
     "operational_area": "東京都",
@@ -531,7 +463,7 @@
   },
   {
     "id": "d8866494-6688-486f-920c-6c56cfd81323",
-    "name": "田中大貴",
+    "name": "田中 大貴",
     "name_rubby": "たなかひろき",
     "role": "株式会社Urth",
     "operational_area": "",
@@ -555,7 +487,7 @@
   },
   {
     "id": "e3e47378-b33c-4828-8301-e9723afb6902",
-    "name": "稲田萌花",
+    "name": "稲田 萌花",
     "name_rubby": "いなだもえか",
     "role": "ISS",
     "operational_area": "",
@@ -565,21 +497,9 @@
     "is_kanji": false
   },
   {
-    "id": "ec5be13b-77e0-4b6c-bcb4-458d5b68450a",
-    "name": "木村庸平",
-    "name_rubby": "きむらようへい",
-    "role": "三井物産",
-    "operational_area": "中華人民共和国，上海",
-    "field_of_expertise": "ウェルネス分野",
-    "history": "2019年早稲田大学大学院先進理工学専攻卒業。三井物産入社。",
-    "message": "三井物産では、ファイナンス・M&A（PMI業務）、マーケティング、戦略、営業、人事関連等、様々な業務に従事してきました。",
-    "is_kanji": false,
-    "image": "images/members/kimura_yohei.jpg"
-  },
-  {
     "id": "f0abf307-26f8-4765-807a-8d1e30f471f4",
-    "name": "武田直也",
-    "name_rubby": "たけだなおや",
+    "name": "武田 直也",
+    "name_rubby": "たけだ なおや",
     "role": "株式会社武田、株式会社スイングアーク",
     "operational_area": "神奈川県横浜市",
     "field_of_expertise": "学習塾（雇われ）、抹茶スイーツ店、法人営業代行、ゴルフメディア運営、ベトナムホーチミンバー経営",
@@ -589,7 +509,7 @@
   },
   {
     "id": "d2bc8929-a339-4100-baef-aa7f1cfae354",
-    "name": "新田裕樹",
+    "name": "新田 裕樹",
     "name_rubby": "にったひろき",
     "role": "KPMG有限責任あずさ監査法人",
     "operational_area": "神奈川県",
@@ -600,7 +520,7 @@
   },
   {
     "id": "37785505-06d9-4692-9f9b-cfb5d9766aeb",
-    "name": "白石ケビン光",
+    "name": "白石 ケビン光",
     "name_rubby": "しらいしけびんひかる",
     "role": "株式会社野村総合研究所",
     "operational_area": "東京、大阪",
