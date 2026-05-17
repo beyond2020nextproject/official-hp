@@ -58,7 +58,7 @@ export default function Member() {
           {
             name: "本田 瑛大",
             role: "オペレーション",
-            introduction: "同志社大学に所属。2024年度よりBeyond 2020 NEXT PROJECT幹事を務める。「感じてみようアントレプレナーシップ愛知」の実行委員長。高校時代は「トビタテ留学JAPAN！」「AIG高校生外交官」等を通じて知事に表敬訪問をし、探究などから『常識を覆す選択と挑戦』を体現し、自身の『人生に彩り』をくわえてきた。大学時代は「Rising Global Leaders」に選抜され、アテネやニューヨーク「Concordia Summit」にて首脳や大使、大主教閣下、ヘクトコーン創業者と対談し、自身が手がける複数の事業成長や公益、次世代育成に貢献してきた。",
+            introduction: "同志社大学に所属。2024年度よりBeyond 2020 NEXT PROJECT幹事を務める。「感じてみようアントレプレナーシップ愛知」の実行委員長。高校時代は「トビタテ留学JAPAN！」「AIG高校生外交官」等を通じて知事に表敬訪問をし、探究などから『常識を覆す選択と挑戦』を体現し、自身の『人生に彩り』をくわえてきた。大学時代は「Rising Global Leaders」に選抜され、アテネやニューヨーク「Concordia Summit」にて首脳や大使、大主教閣下、ヘクトコーン創業者と対話し、自身が手がける複数の事業成長や公益、次世代育成に貢献してきた。",
             image: Profile4,
             facebook:"https://www.facebook.com/share/1ChkmqEqjA/?mibextid=wwXIfr",
             instagram:"https://www.instagram.com/akito.honda.official?igsh=MTlhdGJ0cmo2c2s3Yw%3D%3D&utm_source=qr",
